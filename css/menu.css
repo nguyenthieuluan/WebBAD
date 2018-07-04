@@ -1,0 +1,36 @@
+header{
+  margin-bottom: 65px;
+}
+.menu {
+  background-color: #99C183;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 16;
+  width: 100%;
+}
+.menu ul{
+  list-style-type: none;
+  margin-left: 60px;
+  margin-bottom: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu li{
+  float: left;
+  color: #f2f2f2;
+}
+.menu a{
+  display: block;
+  color: #ffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu a:hover {
+  text-decoration: none;
+  background: #ddd;
+  color: #6A8C57;
+}

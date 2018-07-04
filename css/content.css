@@ -1,0 +1,65 @@
+.tieude{
+  background: #1BCC9F;
+  color: #A46C32;
+  font-size: 14px;
+  padding: 5px;
+  clear: both;
+}
+.tieude h3{
+  margin: 0;
+}
+.tieude h4{
+  margin: 0;
+}
+.box_list{
+  margin-bottom: 10px;
+}
+
+.box_list ul{
+  margin: 0;
+  padding-left: 0 !important;
+}
+.list li{
+  list-style-type: none;
+  padding: 5px;
+  border-bottom:  dotted 1px #351F09;
+}
+
+.list li:hover,.list a:hover{
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  background: #D2F7B1;
+}
+
+
+/* product */
+
+.hangbanchay li{
+  margin-top: 10px;
+}
+
+.product li{
+  width: 200px;
+  float: left;
+  list-style-type: none;
+  margin: 5px;
+}
+.product img{
+  width: 200px;
+  height: 200px;
+}
+
+.product li:hover, .product a:hover{
+  background: pink;
+  text-decoration: none;
+}
+.tensp{
+  overflow: hidden;
+  text-align: left;
+  color: #000;
+}
+.giadesuat{
+  color: red;
+  font-size: 23px;
+}
